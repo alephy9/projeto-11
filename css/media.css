@@ -82,6 +82,7 @@
 @media screen and (max-width: 670px) {
 
     section {
+        margin: 5em 0px;
         height: 600px;
         width: 275px;
         flex-direction: column-reverse;

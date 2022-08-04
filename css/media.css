@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1340px) {
+
+    section {
+        height: 450px;
+        width: 1000px;
+    }
+
+    article {
+        padding: 3rem;
+    }
+
+    article > h1 {
+        font-size: 2em;
+    }
+
+    article > p {
+        line-height: 1.7em;
+        width: 80%;
+        padding: 3rem 0px 7em;
+        font-size: 14px;
+    }
+
+    figure {
+        background-size: 100% 100%;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    
+    section {
+        height: 350px;
+        width: 800px;
+    }
+
+    article > h1 {
+        font-size: 1.5em;
+    }
+
+    article > p {
+        padding: 1.5rem 0px 8.5em;
+        font-size: 10px;
+    }
+
+    .div-hidden1, .div-hidden2, .div-hidden3 {
+        font-size: 12px;
+     }
+     
+     .paragraph {
+         font-size: 10px;
+     }
+
+}
+
+@media screen and (max-width: 850px) {
+
+    section {
+        height: 275px;
+        width: 600px;
+    }
+
+    article > h1 {
+        font-size: 1em;
+    }
+
+    article > p {
+        font-size: 7px;
+    }
+
+    .div-hidden1, .div-hidden2, .div-hidden3 {
+        font-size: 8px;
+     }
+     
+     .paragraph {
+         font-size: 7px;
+     }
+
+}
+
+@media screen and (max-width: 670px) {
+
+    section {
+        height: 600px;
+        width: 275px;
+        flex-direction: column-reverse;
+    }
+
+    article {
+        padding: 2rem;
+        width: 100%;
+        border-radius: 0px 0px 10px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    article > h1 {
+        font-size: 1.3em;
+        text-align: center;
+        line-height: 1.2em;
+    }
+
+    article > p {
+        text-align: center;
+        line-height: 1.7em;
+        width: 100%;
+        padding: 1rem 0px 2rem;
+        font-size: 12px;
+    }
+
+    .div-component {
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+     }
+
+     .div-hidden1, .div-hidden2, .div-hidden3 {
+        text-align: center;
+        font-size: 10px;
+     }
+     
+     .paragraph {
+        padding-top: 2px;
+         font-size: 9px;
+     }
+     
+    figure {
+        height: 200px;
+        width: 100%;
+        background-image: url('../images/image-header-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+}
+
